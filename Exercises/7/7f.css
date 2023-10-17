@@ -1,0 +1,33 @@
+p {
+  font-family: Arial;
+  font-size: 15px;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.text-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-width: 2px;
+  font-size: 15px;
+  border-color: (100, 100, 100);
+}
+
+.button-agree {
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(36, 118, 241);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}

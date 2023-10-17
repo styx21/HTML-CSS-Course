@@ -1,0 +1,39 @@
+.cat-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text-box {
+  border: none;
+  font-size: 30px;
+  vertical-align: middle;
+  width: 350px;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.shadow-div {
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  width: 600px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3) 
+}

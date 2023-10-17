@@ -1,0 +1,30 @@
+.cato {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.text-box {
+  border: none;
+  margin-left: 10px;
+  font-size: 25px;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.button-tweet {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+

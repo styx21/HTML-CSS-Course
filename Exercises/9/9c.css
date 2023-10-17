@@ -1,0 +1,12 @@
+.survey {
+ border-width: 1px;
+ border-color: gray;
+ border-style: solid;
+ width: 300px;
+ padding-left: 20px;
+ padding-bottom: 20px;;
+}
+
+.text {
+  font-family: Arial;
+}
