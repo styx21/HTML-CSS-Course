@@ -1,61 +1,62 @@
 p {
   font-family: Arial;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.profile {
-  width: 200px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
-}
-
-.profile-picture {
+.profile-image {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  margin-bottom: 12px;
-}
-
-.name {
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: 8px;
   margin-bottom: 5px;
 }
 
-.mutual-friends-row {
-  margin-left: 8px;
-  margin-bottom: 10px;
+.mutual-friends-image {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  object-fit: cover;
+  vertical-align: middle;
 }
 
-.mutual-friend-picture {
-  height: 28px;
-  width: 28px;
-  object-fit: cover;
-  border-radius: 14px;
+.mutual-friends-text {
+  display: inline-block;
   vertical-align: middle;
-  margin-right: 4px;
+  margin-left: 4px;
+  color: rgb(100, 100, 100);
+  font-size: 16px;
 }
 
 .mutual-friends {
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+
+.profile-preview {
+  width: 200px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
   display: inline-block;
-  vertical-align: middle;
-  color: rgb(100, 100, 100);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-left: 8px;
 }
 
 .add-friend-button {
   background-color: rgb(24, 119, 242);
   color: white;
   border: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: 8px;
   margin-bottom: 10px;
+
 }
