@@ -1,0 +1,76 @@
+body {
+  height: 3000px;
+}
+
+
+.server-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+}
+
+.flexbox {
+  display: flex;
+  width: 300px;
+}
+
+.server-layout {
+  width: 60px;
+  height: 500px;
+  background-color: rgb(90, 89, 89);
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.server-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 3px;
+}
+
+.menu-layout {
+  width: 200px;
+  background-color: rgb(119, 118, 118);
+}
+
+.flexbox2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  object-position: center;
+
+}
+
+.info-text {
+  color: white;
+}
+
+.plusymbol {
+  color: rgb(177, 177, 177);
+  font-size: 20px;
+}
+
+.menus-layout {
+  padding-left: 15px;
+  color: lightgray;
+}
+
+.new-videos-text,
+.updates-text {
+  padding-bottom: 15px;
+}
+
