@@ -1,0 +1,92 @@
+div {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.flexbox {
+  display: flex;
+  align-items: top;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.cat-image-layout {
+  margin-right: 10px;
+}
+
+.cat-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.tweet-layout {
+  margin-bottom: 15px;
+}
+
+.tweet-column {
+  flex: 1;
+}
+
+.name-tag {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tag {
+  font-weight: 300;
+  color: rgb(104, 104, 104);
+}
+
+.text {
+  font-size: 14px;
+  width: 300px;
+  line-height: 20px;
+}
+
+.flexbox2 {
+display: flex;
+flex-direction: row;
+height: 75px;
+border-color: rgb(195, 195, 195);
+border-width: 1px;
+border-radius: 12px;
+border-style: solid;
+width: 300px;
+}
+
+.gray {
+  background-color: rgb(195, 195, 195);
+  border-radius: 9px 0px 0px 9px;
+  width: 150px;
+}S
+
+.link-layout {
+  margin-top: 5px;
+  flex: 1;
+}
+
+.website {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: rgb(111, 111, 111);
+}
+
+.link-text {
+  line-height: 20px;
+}
+
+.website, 
+.link-text {
+  margin-left: 10px;
+}
+
+
