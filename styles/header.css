@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 100;
 
   position: fixed;
   top: 0;
@@ -12,7 +13,7 @@
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-style: rgb(202, 202, 202);
+  border-bottom-color: rgb(202, 202, 202);
 }
 
 .left-section {
@@ -105,6 +106,25 @@
 
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white ;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
 }
 
 .current-user-picture {
