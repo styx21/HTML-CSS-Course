@@ -1,0 +1,42 @@
+body {
+  height: 3000px;
+}
+
+.gray-rectangle {
+  width: 320px;
+  height: 180px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: gray;
+}
+
+.close-button {
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  font-family: Arial;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timestamp {
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  font-family: Arial;
+  font-size: 18px;
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
